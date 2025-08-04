@@ -1,3 +1,4 @@
+"worklet";
 import {bodyRegExps, namedReferences} from './named-references.js';
 import {numericUnicodeMap} from './numeric-unicode-map.js';
 import {fromCodePoint, getCodePoint} from './surrogate-pairs.js';
