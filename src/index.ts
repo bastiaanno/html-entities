@@ -45,6 +45,7 @@ export function encode(
     text: string | undefined | null,
     {mode = 'specialChars', numeric = 'decimal', level = 'all'}: EncodeOptions = defaultEncodeOptions
 ) {
+    'worklet';
     if (!text) {
         return '';
     }
