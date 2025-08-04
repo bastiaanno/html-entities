@@ -152,6 +152,7 @@ export function decode(
     text: string | undefined | null,
     {level = 'all', scope = level === 'xml' ? 'strict' : 'body'}: DecodeOptions = defaultDecodeOptions
 ) {
+    'worklet';
     if (!text) {
         return '';
     }
